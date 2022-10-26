@@ -10,7 +10,7 @@ class demo
 				System.out.print("      ");
 				for(int j=0;j<n;j++)
 					{
-						if(i==0||i==(3*n)/4||j==0&&i<(3*n)/4||j==n-1&&i<(3*n)/4||i+j<=(n-1)/2||j-i>=(n-1)/2)
+						if(i==0||i==n-1||j==0&&i<n-1||j==n-1&&i<n-1||i+j<=(n-1)/2||j-i>=(n-1)/2)
 							{
 								System.out.print("*");
 							}
