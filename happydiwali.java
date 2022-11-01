@@ -2,7 +2,7 @@ class happy
 {
 	public static void main(String args[])
 	{
-		int n=15;
+		int n=13;
 		System.out.println();
 		System.out.println();
 		for(int i=0;i<n;i++)
@@ -55,7 +55,7 @@ class happy
 					System.out.print(" ");
 				}
 			}
-			System.out.print("           ");
+			System.out.print("       ");
 			for(int j=0;j<n;j++)
 			{ 
          		if(j==0||j==(3*n)/4||i==(n-1)/2&&j<=(3*n)/4)
