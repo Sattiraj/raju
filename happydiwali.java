@@ -1,4 +1,4 @@
-class happy
+class Happy
 {
 	public static void main(String args[])
 	{
